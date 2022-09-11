@@ -1,28 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
-.container {
-  border: 2px solid black;
-  border-radius: 10px;
+html,
+body {
+  margin: 0;
 }
 
-.img__container {
-  position: relative;
+body {
+  background-color: hsl(233, 47%, 7%);
+  padding: 50px 15px;
+  position: absolute;
 }
 
 .img__foreground {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(155, 5, 255, 0.5);
+  background-color: hsl(277, 64%, 61%, 0.7);
   border-radius: 10px 10px 0 0;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+}
+
+/* Classes */
+
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.img__container {
+  position: relative;
 }
 
 .img {
   width: 100%;
   height: auto;
   border-radius: 10px 10px 0 0;
+}
+
+.info {
+  padding: 20px 20px 0;
+  text-align: center;
+}
+
+.para {
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats__section {
+  margin: 25px 0;
+}
+
+.stats {
+  margin: 20px 0;
+}
+
+.stats p {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 15px;
+}
+.stats h3,
+.stats p {
+  margin: 5px 0;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 7px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
