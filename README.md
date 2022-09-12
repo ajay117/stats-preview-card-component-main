@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ajay117/stats-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://ajay117.github.io/stats-preview-card-component-main/)
+- Solution URL: [https://github.com/ajay117/stats-preview-card-component-main](https://github.com/ajay117/stats-preview-card-component-main)
+- Live Site URL: [https://ajay117.github.io/stats-preview-card-component-main/](https://ajay117.github.io/stats-preview-card-component-main/)
 
 ## My process
 
