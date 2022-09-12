@@ -53,7 +53,7 @@ h3 {
 
 .img {
   width: 100%;
-  height: auto;
+  min-height: 100%;
   border-radius: 10px 10px 0 0;
 }
 
@@ -67,7 +67,7 @@ h3 {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-.stats__section {
+.stats__container {
   margin: 25px 0;
 }
 
@@ -94,4 +94,38 @@ h3 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 376px) {
+  .container {
+    display: flex;
+  }
+  .img__container {
+    order: 2;
+  }
+  .img__container,
+  .info {
+    flex: 1;
+  }
+  .info {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .info h2 {
+    font-size: 24px;
+  }
+  .info p {
+    font-size: 16px;
+  }
+  .stats__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .stats p {
+    font-size: 14px;
+  }
 }
