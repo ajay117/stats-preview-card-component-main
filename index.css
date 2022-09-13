@@ -16,14 +16,6 @@ body {
   position: absolute;
 }
 
-.img__foreground {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: hsl(277, 64%, 61%, 0.7);
-  border-radius: 10px 10px 0 0;
-}
-
 h2 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -48,13 +40,15 @@ h3 {
 }
 
 .img__container {
-  position: relative;
+  background-color: hsl(277, 64%, 61%, 0.7);
 }
 
 .img {
   width: 100%;
   min-height: 100%;
   border-radius: 10px 10px 0 0;
+  mix-blend-mode: multiply;
+  opacity: 82%;
 }
 
 .info {
